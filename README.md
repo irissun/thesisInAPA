@@ -10,3 +10,5 @@ copy and paste the latex code to the website: http://app.uio.no/ifi/texcount/onl
 
 Refer to 
 https://stackoverflow.com/questions/2974954/correct-word-count-of-a-latex-document
+
+2. The latex template in the file template. 
