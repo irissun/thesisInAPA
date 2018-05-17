@@ -1,0 +1,127 @@
+\documentclass[a4paper, 12pt, twoside]{article}
+\usepackage{graphicx}
+\usepackage[doublespacing]{setspace}
+\usepackage{geometry} %setting margin
+\geometry{top=2.5cm, bottom=2.5cm, outer = 2.5cm, inner=4cm}
+\usepackage{lipsum} %having the example content to fill the part
+\usepackage[utf8]{inputenc}
+
+\begin{document}
+
+\newgeometry{top=2.54cm, bottom=2.54cm, outer = 2.54cm, inner=2.54cm}
+%----------------------------Thesis Cover----------------------------%
+\begin{titlepage}
+	\begin{center}
+	\doublespacing
+	Title\\
+	[1.5cm]
+	by\\
+	[1.5cm]
+	Author\\
+	[2.4cm]
+	Doctor of Philosophy in Psychology\\
+	[5cm]
+	2018\\
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width = 31mm]{fig/umac_logo}
+		\end{figure}
+	Faculty of Social Sciences\\
+	University of Macau
+	\end{center}
+\end{titlepage}
+%----------------------------Title Page----------------------------%
+\begin{titlepage}
+	\begin{center}
+	\doublespacing
+	Title\\
+	[1.5cm]
+	by\\
+	[1.5cm]
+	Author\\
+	[1.5cm]
+	SUPERVISOR: Name\\
+	[1.5cm]
+	DEPARTMENT: Department of Psychology\\
+	[1.5cm]
+	Doctor of Philosophy in Psychology\\
+	[1.5cm]
+	2018\\
+	[1.5cm]
+	University of Macau
+	\end{center}
+\end{titlepage}
+%----------------------------Author's Right----------------------------%
+\begin{titlepage}
+\newgeometry{top = 10cm}
+\begin{center}
+Author's right 2018 by\\
+LAST NAME, First Name
+\end{center}
+\end{titlepage}
+
+\newpage\null\thispagestyle{empty}\newpage
+
+\restoregeometry
+\setcounter{page}{1}
+\pagenumbering{roman}
+%----------------------------Acknowledgements----------------------------%
+%\phantomsection
+\section*{\centering \bf \normalsize{Acknowledgements}}
+\addcontentsline{toc}{section}{\numberline{}Acknowledgements}
+
+I would like to thank my supervisor, Professor... \\
+\lipsum[1]
+\newpage
+
+%----------------------------Abstract---------------------------%
+\section*{\centering \bf \normalsize{Abstract}}
+\addcontentsline{toc}{section}{\numberline{}Abstract}
+\lipsum[2]
+\newpage
+
+%----------------------------Declaration----------------------------%
+\section*{\centering \bf \normalsize{Declaration}}
+\addcontentsline{toc}{section}{\numberline{}Declaration}
+I declare that the thesis here submitted is original except for the source materials explicitly acknowledged  and that this thesis as a whole, or any part of this thesis has not been previously submitted for the same degree or for a different degree.\\ \\ 
+I also acknowledge that I have read and understood the Rules on Handling Student Academic Dishonesty and the Regulations of the Student Discipline of the University of Macau.
+
+\newpage
+%----------------------------Table of Contents----------------------------%
+\renewcommand\contentsname{Table of Contents}
+\tableofcontents
+\newpage
+\listoffigures 
+\newpage
+\listoftables
+
+\newpage 
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\section*{\centering \bf \normalsize{Chapter 1 Introduction}}
+\addcontentsline{toc}{section}{\numberline{}Chapter 1 Introduction}
+\label{sec:intro}
+\lipsum[2]
+\setcounter{section}{1}
+\subsection{\bf \normalsize{Statement of the Problem}}
+\lipsum[1]
+\subsection{\bf \normalsize{Definitions of the Terms}}
+\subsubsection{\bf \normalsize{Aggressive behaviors}}
+\lipsum[3]
+\subsubsection{\bf \normalsize{Well-being}}
+\lipsum[1]
+
+\section*{\centering \bf \normalsize{Chapter 2 Methodology}}
+\addcontentsline{toc}{section}{\numberline{}Chapter 2 Methodology}
+\label{sec:met}
+\lipsum[2]
+\setcounter{section}{2}
+\setcounter{subsection}{0}
+\subsection{\bf \normalsize{Participants}}
+\lipsum[3]
+\subsection{\bf \normalsize{Materials}}
+\lipsum[1]
+\subsection{\bf \normalsize{Procedures}}
+\lipsum[3]
+
+\end{document}
