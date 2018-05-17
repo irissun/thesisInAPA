@@ -1,0 +1,123 @@
+\documentclass[a4paper, 12pt, twoside]{article}
+\usepackage{graphicx}
+\usepackage[doublespacing]{setspace}
+\usepackage{geometry} %setting margin
+\geometry{top=2.5cm, bottom=2.5cm, outer = 2.5cm, inner=4cm}
+\usepackage{lipsum} %having the example content to fill the part
+%\usepackage[utf8]{inputenc}
+
+\begin{document}
+
+\newgeometry{top=2.54cm, bottom=2.54cm, outer = 2.54cm, inner=2.54cm}
+%----------------------------Thesis Cover----------------------------%
+\begin{titlepage}
+	\begin{center}
+	\doublespacing
+	Reducing Estimate Bias in the Standardized Mean Difference \\
+	Due to Nonnormality in Meta-Analysis \\
+	[1.5cm]
+	by\\
+	[1.5cm]
+	Rong Wei Sun\\
+	[2.4cm]
+	Doctor of Philosophy in Psychology\\
+	[5cm]
+	2018\\
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width = 31mm]{fig/umac_logo}
+		\end{figure}
+	Faculty of Social Sciences\\
+	University of Macau
+	\end{center}
+\end{titlepage}
+%----------------------------Title Page----------------------------%
+\begin{titlepage}
+	\begin{center}
+	\doublespacing
+	Reducing Estimate Bias in the Standardized Mean Difference \\
+	Due to Nonnormality in Meta-Analysis \\
+	[1.5cm]
+	by\\
+	[1.5cm]
+	Rong Wei Sun\\
+	[1.5cm]
+	SUPERVISOR: Cheung Shu Fai\\
+	[1.5cm]
+	DEPARTMENT: Department of Psychology\\
+	[1.5cm]
+	Doctor of Philosophy in Psychology\\
+	[1.5cm]
+	2018\\
+	[1.5cm]
+	University of Macau
+	\end{center}
+\end{titlepage}
+%----------------------------Author's Right----------------------------%
+\begin{titlepage}
+\newgeometry{top = 10cm}
+\begin{center}
+Author's right 2018 by\\
+SUN, Rong Wei
+\end{center}
+\end{titlepage}
+
+\newpage\null\thispagestyle{empty}\newpage
+
+\restoregeometry
+\setcounter{page}{1}
+\pagenumbering{roman}
+%----------------------------Acknowledgements----------------------------%
+%\phantomsection
+\section*{\centering \bf \normalsize{Acknowledgements}}
+\addcontentsline{toc}{section}{\numberline{}Acknowledgements}
+
+I would like to thank my supervisor, Professor. \\
+\lipsum[1]
+\newpage
+
+%----------------------------Abstract---------------------------%
+\section*{\centering \bf \normalsize{Abstract}}
+\addcontentsline{toc}{section}{\numberline{}Abstract}
+The normal distribution is one of the basic assumptions in almost all the statistics used including calculation of effect sizes and meta-analysis. Given the fact that in the area of behavioral and social science such assumption is always violated, it is necessary to develop the robust methods. Many works have suggested the problems of non-normality and proposed some methods to address it. The purpose of present study was two-fold. One is to explore the influence of non-normality of raw data on Hedges's $g$ and compare the Hedges-Vevea and Hunter-Schmidt approaches in the fixed-effect model of meta-analysis. The other is to compare different robust methods and try to propose the possible and appropriate solution to this problem.
+\newpage
+
+%----------------------------Declaration----------------------------%
+\section*{\centering \bf \normalsize{Declaration}}
+\addcontentsline{toc}{section}{\numberline{}Declaration}
+I declare that the thesis here submitted is original except for the source materials explicitly acknowledged  and that this thesis as a whole, or any part of this thesis has not been previously submitted for the same degree or for a different degree.\\ \\ 
+I also acknowledge that I have read and understood the Rules on Handling Student Academic Dishonesty and the Regulations of the Student Discipline of the University of Macau.
+
+\newpage
+%----------------------------Table of Contents----------------------------%
+\renewcommand\contentsname{Table of Contents}
+\tableofcontents
+\newpage
+\listoffigures 
+\newpage
+\listoftables
+
+\newpage 
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\section*{\centering \bf \normalsize{Chapter 1 Introduction}}
+\addcontentsline{toc}{section}{\numberline{}Chapter 1 Introduction}
+\label{sec:intro}
+\lipsum[2]
+\setcounter{section}{1}
+%\setcounter{subsection}{1}
+\subsection{Motivation}
+\subsubsection{sectrefe}
+\lipsum[1]
+
+
+\section*{\centering \bf \normalsize{Chapter 2 Methods}}
+\addcontentsline{toc}{section}{\numberline{}Chapter 2 Methods}
+\label{sec:met}
+\lipsum[2]
+\subsection{Metefe}
+
+\subsubsection{sectrefe}
+\lipsum[1]
+
+\end{document}
