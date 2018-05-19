@@ -5,6 +5,12 @@
 \geometry{top=2.5cm, bottom=2.5cm, outer = 2.5cm, inner=4cm}
 \usepackage{lipsum} %having the example content to fill the part
 \usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{csquotes}
+\usepackage{booktabs} % for the tables
+\usepackage{sectsty}
+\allsectionsfont{\normalsize \bf}
+\sectionfont{\centering \bf \normalsize}
 
 \begin{document}
 
@@ -67,7 +73,7 @@ LAST NAME, First Name
 \pagenumbering{roman}
 %----------------------------Acknowledgements----------------------------%
 %\phantomsection
-\section*{\centering \bf \normalsize{Acknowledgements}}
+\section*{Acknowledgements}
 \addcontentsline{toc}{section}{\numberline{}Acknowledgements}
 
 I would like to thank my supervisor, Professor... \\
@@ -75,13 +81,13 @@ I would like to thank my supervisor, Professor... \\
 \newpage
 
 %----------------------------Abstract---------------------------%
-\section*{\centering \bf \normalsize{Abstract}}
+\section*{Abstract}
 \addcontentsline{toc}{section}{\numberline{}Abstract}
 \lipsum[2]
 \newpage
 
 %----------------------------Declaration----------------------------%
-\section*{\centering \bf \normalsize{Declaration}}
+\section*{Declaration}
 \addcontentsline{toc}{section}{\numberline{}Declaration}
 I declare that the thesis here submitted is original except for the source materials explicitly acknowledged  and that this thesis as a whole, or any part of this thesis has not been previously submitted for the same degree or for a different degree.\\ \\ 
 I also acknowledge that I have read and understood the Rules on Handling Student Academic Dishonesty and the Regulations of the Student Discipline of the University of Macau.
@@ -98,30 +104,30 @@ I also acknowledge that I have read and understood the Rules on Handling Student
 \newpage 
 \setcounter{page}{1}
 \pagenumbering{arabic}
-\section*{\centering \bf \normalsize{Chapter 1 Introduction}}
+\section*{Chapter 1 Introduction}
 \addcontentsline{toc}{section}{\numberline{}Chapter 1 Introduction}
 \label{sec:intro}
 \lipsum[2]
 \setcounter{section}{1}
-\subsection{\bf \normalsize{Statement of the Problem}}
+\subsection{Statement of the Problem}
 \lipsum[1]
-\subsection{\bf \normalsize{Definitions of the Terms}}
-\subsubsection{\bf \normalsize{Aggressive behaviors}}
+\subsection{Definitions of the Terms}
+\subsubsection{Aggressive behaviors}
 \lipsum[3]
-\subsubsection{\bf \normalsize{Well-being}}
+\subsubsection{Well-being}
 \lipsum[1]
 
-\section*{\centering \bf \normalsize{Chapter 2 Methodology}}
+\section*{Chapter 2 Methodology}
 \addcontentsline{toc}{section}{\numberline{}Chapter 2 Methodology}
 \label{sec:met}
 \lipsum[2]
 \setcounter{section}{2}
 \setcounter{subsection}{0}
-\subsection{\bf \normalsize{Participants}}
+\subsection{{Participants}
 \lipsum[3]
-\subsection{\bf \normalsize{Materials}}
+\subsection{{Materials}
 \lipsum[1]
-\subsection{\bf \normalsize{Procedures}}
+\subsection{Procedures}
 \lipsum[3]
 
 \end{document}
