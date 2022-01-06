@@ -1,5 +1,5 @@
 # thesisInAPA
-Write a thesis in APA style by LaTex and follow the university guidelines
+Write a thesis in APA style by LaTex and follow the university guidelines (University of Macau)
 
 ## Latex
 1. How to count words in Latex?
